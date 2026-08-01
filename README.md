@@ -40,13 +40,14 @@ student:
   college: "I.T.S. Engineering College, Greater Noida"
   batch: "2023 – 2027"
   location: "Delhi NCR, India"
-  focus: ["Android Development", "Machine Learning", "Generative AI"]
+  focus: ["Android Development", "Machine Learning", "Generative AI", "Systems Programming"]
   currently_building: "AI-based Price Comparison App — Final Year Project (SDG 12)"
   fun_fact: "I turn coffee ☕ into Kotlin code, and logic into mobile apps."
 ```
 
 - 🔭 Final-year project: an **AI-powered price comparison platform** aligned with **SDG 12 – Responsible Consumption & Production**, built with a 4-member team, featuring voice search, AI review summarization, and multilingual (Hindi/regional) assistant support.
 - 🧠 Also building **SpendBite** — an automated personal-finance Android app that tracks food-delivery spend (Swiggy, Zomato, Blinkit, Zepto) via SMS parsing, with budgeting and a group expense-split feature.
+- ⚙️ Went low-level with a **Thread-Safe In-Memory Cache Engine in C++** — a Redis-style LRU cache with O(1) get/put, TTL expiration, and lock-guarded concurrent access.
 - 📱 Comfortable across the full Android stack: **MVVM, Coroutines, Room, Retrofit, Firebase**, moving toward **Jetpack Compose & Hilt**.
 - 🤖 Into **on-device ML** — built an offline **deepfake-detection app** using Kotlin + TensorFlow Lite.
 - 🌱 Solved **180+ DSA problems** (LeetCode + GeeksforGeeks) and hold an **AWS Academy Cloud Foundations** certification.
@@ -100,12 +101,22 @@ student:
 <tr>
 <td width="50%" valign="top">
 
+### ⚙️ [Thread-Safe In-Memory Cache Engine](https://github.com/NipunSingh999/in-memory-cache-cpp)
+Redis-style LRU cache written in C++ using a hash map + custom doubly linked list for O(1) get/put/eviction, with TTL-based lazy expiration and lock-guarded thread-safe access.
+
+`C++` `Data Structures` `Concurrency` `Systems Design`
+
+</td>
+<td width="50%" valign="top">
+
 ### 💸 [SpendBite](https://github.com/NipunSingh999/SpendBite)
 Automated personal-finance Android app that auto-syncs food-delivery spend (Swiggy/Zomato/Blinkit/Zepto) from SMS, tracks budgets & subscription ROI, and splits group expenses via **Split-Bite Hub**.
 
 `Kotlin` `MVVM` `Firebase` `Room` `Retrofit` `Coroutines`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛒 AI Price Comparison App *(in progress)*
@@ -114,8 +125,6 @@ Final-year capstone aligned with **SDG 12**. Compares prices across platforms wi
 `AI/ML` `NLP` `Team Project` `SDG 12`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 💧 [Intelligent Water Distribution System](https://github.com/NipunSingh999/Intelligent-Water-Distribution-System)
@@ -124,6 +133,8 @@ Real-time water leak detection & monitoring system simulating IoT sensors, mappe
 `IoT Simulation` `MQTT` `Flask` `ML`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🎬 [YouTube Transcript Summarizer](https://github.com/NipunSingh999/youtube_transcript_summarizer)
@@ -132,17 +143,12 @@ Chrome extension that pulls YouTube transcripts and generates concise AI-powered
 `Python` `Flask` `Hugging Face Transformers`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### ⏸️ [Tab Video Auto-Pause](https://github.com/NipunSingh999/Tab-Video-Auto-Pause)
 Chrome extension that auto-pauses YouTube playback on tab switch and resumes on return — distraction-free viewing.
 
 `JavaScript` `Chrome Extension API`
-
-</td>
-<td width="50%" valign="top">
 
 </td>
 </tr>
@@ -171,6 +177,7 @@ Chrome extension that auto-pauses YouTube playback on tab switch and resumes on 
 ```
 🎓 Final Year @ ITS Engineering College, Greater Noida  (2023 – 2027)
 🔬 Building final-year project → AI Price Comparison App (SDG 12)
+⚙️ Just shipped → Thread-Safe In-Memory Cache Engine in C++ (LRU + TTL)
 📱 Sharpening Android skills → Jetpack Compose, Hilt, Clean Architecture
 🧩 Solving DSA daily → 180+ problems on LeetCode / GFG
 💼 Open to → Android Developer & ML Engineer internships/full-time roles
