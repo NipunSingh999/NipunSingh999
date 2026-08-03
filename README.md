@@ -101,7 +101,7 @@ student:
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ [Thread-Safe In-Memory Cache Engine]((https://github.com/NipunSingh999/cpp-lru-cache-engine))
+### ⚙️ [Thread-Safe In-Memory Cache Engine](https://github.com/NipunSingh999/cpp-lru-cache-engine)
 Redis-style LRU cache written in C++ using a hash map + custom doubly linked list for O(1) get/put/eviction, with TTL-based lazy expiration and lock-guarded thread-safe access.
 
 `C++` `Data Structures` `Concurrency` `Systems Design`
